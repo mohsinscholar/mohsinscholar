@@ -1,23 +1,24 @@
 <h1 align="center">Hi 👋, I'm Muhammad Mohsin</h1>
 <h3 align="center">A passionate Computer Science Researcher & IT Professional from Pakistan</h3>
 <img align="right"
-    src="  " width="400">
+    src="https://github.com/mohsinscholar/mohsinscholar/blob/main/ChatGPT%20Image%20Sep%2014,%202026,%2003_21_42%20PM.png?raw=true"
+    alt="Muhammad Mohsin Avatar" width="200">
 
 - 🎓 MPhil in Computer Science (Cryptography & AI Security)
 - 🔬 Researching Symmetric-Key Cryptography, AI Security, and Digital Forensics
 - 🤖 Actively expanding expertise in agentic AI architectures, autonomous multi-agent workflows, and intelligent system design.
 - 📚 Co-author of 3 peer-reviewed research papers aiming for PhD opportunities in Europe
-- 📫 How to reach me **m.mohsinscholar@gmail.com**
+- 📫 How to reach me **[Your Email Address]**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://linkedin.com/in/mohsinscholar" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="muhammad mohsin" height="30" width="40" /></a>
-<a href="https://github.com/mohsinscholar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/git.svg" alt="github" height="30" width="40" /></a>
-<a href="https://orcid.org/0009-0002-8425-0658" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/orcid.svg" alt="orcid" height="30" width="40" /></a>
-<a href="https://scholar.google.com/citations?user=g9jWUw4AAAAJ&hl=en" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/google-scholar.svg" alt="google scholar" height="30" width="40" /></a>
-<a href="https://www.facebook.com/mohsin4149" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="facebook" height="30" width="40" /></a>
-<a href="https://www.instagram.com/mr_muhammad_mohsin/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="instagram" height="30" width="40" /></a>
-<a href="https://www.tiktok.com/@mohsin__thoughts" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/tiktok.svg" alt="tiktok" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/mohsinscholar" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="muhammad mohsin linkedin" height="30" width="40" /></a>
+<a href="https://github.com/mohsinscholar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/git.svg" alt="muhammad mohsin github" height="30" width="40" /></a>
+<a href="https://orcid.org/0009-0002-8425-0658" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/orcid.svg" alt="muhammad mohsin orcid" height="30" width="40" /></a>
+<a href="https://scholar.google.com/citations?user=g9jWUw4AAAAJ&hl=en" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/google-scholar.svg" alt="muhammad mohsin google scholar" height="30" width="40" /></a>
+<a href="https://www.facebook.com/mohsin4149" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="muhammad mohsin facebook" height="30" width="40" /></a>
+<a href="https://www.instagram.com/mr_muhammad_mohsin/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="muhammad mohsin instagram" height="30" width="40" /></a>
+<a href="https://www.tiktok.com/@mohsin__thoughts" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/tiktok.svg" alt="muhammad mohsin tiktok" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
