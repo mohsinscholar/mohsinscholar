@@ -1,8 +1,7 @@
 <h1 align="center">Hi 👋, I'm Muhammad Mohsin</h1>
 <h3 align="center">A passionate Computer Science Researcher & IT Professional from Pakistan</h3>
 <img align="right"
-    src="https://img.freepik.com/free-vector/flat-computer-engineering-concept_23-2148152149.jpg?t=st=1730923984~exp=1730927584~hmac=43e09faf791a42f9e60c5655ad612577eaf7363b442e9ffd6c04e12e813a6cf3&w=740"
-    alt="coding" width="400">
+    src="  " width="400">
 
 - 🎓 MPhil in Computer Science (Cryptography & AI Security)
 - 🔬 Researching Symmetric-Key Cryptography, AI Security, and Digital Forensics
