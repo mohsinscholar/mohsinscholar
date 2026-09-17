@@ -1,6 +1,5 @@
-<!-- [BANNER IMAGE SECTION]: Yeh profile ke bilkul oopar aik attractive banner show karega -->
 <p align="center">
-  <img src="./Assets/banner.png" alt="Muhammad Mohsin Banner" width="100%" style="border-radius: 8px; margin-bottom: 20px;" />
+  <img src="./Assets/banner.png" alt="Muhammad Mohsin Banner" width="100%">
 </p>
 <!-- [MAIN CONTAINER WITH 4-SIDE BORDER]: Yeh poori profile ko aik khoobsurat border aur box ke andar wrap karta hai -->
 <div style="border: 2px solid #30363d; border-radius: 12px; padding: 30px; background-color: #0d1117; color: #c9dd1a;">
