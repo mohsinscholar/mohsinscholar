@@ -39,6 +39,9 @@
 </div>
 
 <br clear="right"/>
+<p align="center">
+  <img src="./Assets/coding.gif.gif" alt="Coding Animation" width="400">
+</p>
 
 <hr style="border: 0.5px solid #30363d; margin: 25px 0;">
 
