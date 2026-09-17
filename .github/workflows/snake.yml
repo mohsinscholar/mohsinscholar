@@ -5,8 +5,6 @@ on:
   push:
     branches:
       - main
-  schedule:
-    - cron: "0 */12 * * *"
 
 permissions:
   contents: write
@@ -20,134 +18,212 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Create fast snake with 12 dots
+      - name: Generate growing snake animation
         shell: python
         run: |
+          import random
           from pathlib import Path
+          from collections import deque
 
-          # Smaller number = faster animation.
-          SECONDS = 8
+          W, H = 32, 9
+          CELL = 20
           DOTS = 12
-          BODY = 6
+          ROUNDS = 6
 
-          COLS, ROWS = 30, 7
-          CELL = 22
-          WIDTH = COLS * CELL
-          HEIGHT = ROWS * CELL
+          # Seconds per move: lower means faster.
+          MOVE_TIME = 0.065
 
-          # A closed route around the board.
-          route = (
-              [(x, 1) for x in range(1, 29)]
-              + [(28, y) for y in range(2, 6)]
-              + [(x, 5) for x in range(27, 0, -1)]
-              + [(1, y) for y in range(4, 1, -1)]
-          )
+          def make_round(seed):
+              rng = random.Random(seed)
+              snake = [(5, 4), (4, 4), (3, 4), (2, 4)]
+              cells = [
+                  (x, y)
+                  for y in range(H)
+                  for x in range(W)
+              ]
 
-          count = len(route)
-          food_steps = [
-              int((i + 1) * count / (DOTS + 1))
-              for i in range(DOTS)
+              food = set(rng.sample(
+                  [p for p in cells if p not in snake],
+                  DOTS
+              ))
+
+              frames = [(snake[:], sorted(food))]
+
+              for _ in range(1200):
+                  head = snake[0]
+                  blocked = set(snake[:-1])
+                  queue = deque([head])
+                  previous = {head: None}
+                  target = None
+
+                  # Find the nearest reachable dot.
+                  while queue:
+                      p = queue.popleft()
+
+                      if p in food:
+                          target = p
+                          break
+
+                      x, y = p
+                      neighbors = [
+                          (x + 1, y), (x, y + 1),
+                          (x - 1, y), (x, y - 1)
+                      ]
+
+                      for q in neighbors:
+                          if (
+                              0 <= q[0] < W
+                              and 0 <= q[1] < H
+                              and q not in blocked
+                              and q not in previous
+                          ):
+                              previous[q] = p
+                              queue.append(q)
+
+                  if target is None:
+                      return None
+
+                  nxt = target
+                  while previous[nxt] != head:
+                      nxt = previous[nxt]
+
+                  snake.insert(0, nxt)
+
+                  if nxt in food:
+                      food.remove(nxt)
+                  else:
+                      snake.pop()
+
+                  frames.append((snake[:], sorted(food)))
+
+                  if not food:
+                      return frames
+
+              return None
+
+          frames = []
+
+          for round_number in range(ROUNDS):
+              for attempt in range(100):
+                  result = make_round(
+                      round_number + attempt * 1000
+                  )
+                  if result:
+                      frames.extend(result)
+                      break
+              else:
+                  raise RuntimeError("Could not create round")
+
+          total = len(frames)
+          duration = total * MOVE_TIME
+          width = W * CELL
+          height = H * CELL
+
+          css = [
+              ".frame{opacity:0;"
+              f"animation-duration:{duration:.4f}s;"
+              "animation-timing-function:steps(1,end);"
+              "animation-iteration-count:infinite}"
           ]
+          groups = []
 
-          out = Path("dist")
-          out.mkdir(exist_ok=True)
+          for i, (snake, food) in enumerate(frames):
+              start = i * 100 / total
+              end = (i + 1) * 100 / total
+
+              css.append(
+                  f"@keyframes f{i}{{"
+                  "0%{opacity:0}"
+                  f"{start:.7f}%{{opacity:1}}"
+                  f"{end:.7f}%{{opacity:0}}"
+                  "100%{opacity:0}"
+                  "}"
+              )
+
+              group = [
+                  f'<g class="frame" '
+                  f'style="animation-name:f{i}">'
+              ]
+
+              for x, y in food:
+                  group.append(
+                      f'<circle cx="{x*CELL+10}" '
+                      f'cy="{y*CELL+10}" r="5" '
+                      'fill="var(--food)"/>'
+                  )
+
+              for j in reversed(range(len(snake))):
+                  x, y = snake[j]
+                  color = (
+                      "var(--head)" if j == 0
+                      else "var(--body)"
+                  )
+                  group.append(
+                      f'<rect x="{x*CELL+2}" '
+                      f'y="{y*CELL+2}" '
+                      'width="16" height="16" rx="5" '
+                      f'fill="{color}"/>'
+                  )
+
+              hx, hy = snake[0]
+              for offset in (6, 13):
+                  group.append(
+                      f'<circle cx="{hx*CELL+offset}" '
+                      f'cy="{hy*CELL+6}" r="2" fill="white"/>'
+                      f'<circle cx="{hx*CELL+offset}" '
+                      f'cy="{hy*CELL+6}" r="1" fill="#111827"/>'
+                  )
+
+              group.append("</g>")
+              groups.append("".join(group))
 
           themes = [
               (
                   "github-contribution-grid-snake.svg",
                   "#ffffff", "#e5e7eb",
-                  "#7c3aed", "#0891b2"
+                  "#6d28d9", "#a78bfa", "#0891b2"
               ),
               (
                   "github-contribution-grid-snake-dark.svg",
                   "#0d1117", "#21262d",
-                  "#f472b6", "#22d3ee"
+                  "#f472b6", "#a855f7", "#22d3ee"
               ),
           ]
 
-          for filename, bg, grid, snake, food in themes:
-              styles = []
-              parts = [
-                  f'<svg xmlns="http://www.w3.org/2000/svg" '
-                  f'viewBox="0 0 {WIDTH} {HEIGHT}" '
-                  f'role="img" aria-label="Decorative snake animation with 12 dots">',
-                  '<title>Fast Snake — 12 Dots</title>',
-                  f'<rect width="{WIDTH}" height="{HEIGHT}" '
+          out = Path("dist")
+          out.mkdir(exist_ok=True)
+
+          for filename, bg, grid, head, body, food in themes:
+              theme = (
+                  f"svg{{--head:{head};--body:{body};"
+                  f"--food:{food}}}"
+              )
+
+              svg = [
+                  '<svg xmlns="http://www.w3.org/2000/svg" '
+                  f'viewBox="0 0 {width} {height}" '
+                  'role="img" aria-label="Decorative growing snake animation">',
+                  '<title>Growing Snake — 12 Dots</title>',
+                  "<style>" + theme + "".join(css) + "</style>",
+                  f'<rect width="{width}" height="{height}" '
                   f'rx="12" fill="{bg}"/>',
               ]
 
-              # Background grid.
-              for y in range(ROWS):
-                  for x in range(COLS):
-                      parts.append(
+              for y in range(H):
+                  for x in range(W):
+                      svg.append(
                           f'<rect x="{x*CELL+3}" y="{y*CELL+3}" '
-                          f'width="16" height="16" rx="4" '
+                          'width="14" height="14" rx="3" '
                           f'fill="{grid}"/>'
                       )
 
-              # Exactly 12 food dots.
-              for i, step in enumerate(food_steps):
-                  x, y = route[step]
-                  eaten = step / count * 100
+              svg.extend(groups)
+              svg.append("</svg>")
+              (out / filename).write_text("".join(svg))
 
-                  styles.append(
-                      f'@keyframes food{i}{{'
-                      f'0%{{opacity:1}}'
-                      f'{eaten:.5f}%{{opacity:0}}'
-                      f'100%{{opacity:0}}'
-                      f'}}'
-                      f'.food{i}{{animation:food{i} '
-                      f'{SECONDS}s steps(1,end) infinite}}'
-                  )
+              print(f"Created {filename}: {ROUNDS} rounds")
 
-                  parts.append(
-                      f'<circle class="food{i}" '
-                      f'cx="{x*CELL+11}" cy="{y*CELL+11}" '
-                      f'r="6" fill="{food}"/>'
-                  )
-
-              # Draw tail first, then head.
-              for segment in reversed(range(BODY)):
-                  frames = []
-
-                  for step in range(count + 1):
-                      x, y = route[(step - segment) % count]
-                      percent = step / count * 100
-                      frames.append(
-                          f'{percent:.5f}%{{transform:'
-                          f'translate({x*CELL}px,{y*CELL}px)}}'
-                      )
-
-                  styles.append(
-                      f'@keyframes move{segment}{{'
-                      + ''.join(frames)
-                      + '}'
-                      + f'.snake{segment}{{animation:move{segment} '
-                      + f'{SECONDS}s steps(1,end) infinite}}'
-                  )
-
-                  opacity = 1 - segment * 0.1
-                  parts.append(
-                      f'<g class="snake{segment}">'
-                      f'<rect x="2" y="2" width="18" height="18" '
-                      f'rx="6" fill="{snake}" opacity="{opacity}"/>'
-                  )
-
-                  if segment == 0:
-                      parts.append(
-                          '<circle cx="8" cy="8" r="2" fill="white"/>'
-                          '<circle cx="14" cy="8" r="2" fill="white"/>'
-                          '<circle cx="8" cy="8" r="1" fill="#111827"/>'
-                          '<circle cx="14" cy="8" r="1" fill="#111827"/>'
-                      )
-
-                  parts.append('</g>')
-
-              parts.append('<style>' + ''.join(styles) + '</style>')
-              parts.append('</svg>')
-              (out / filename).write_text(''.join(parts))
-
-      - name: Publish Snake
+      - name: Publish animation
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
