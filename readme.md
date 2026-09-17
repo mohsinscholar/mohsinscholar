@@ -22,6 +22,12 @@
 <!-- [AVATAR/IMAGE SECTION]: Yeh aapki profile image ko right side par aur chote size mein set karega -->
 <img align="right" src="https://github.com/user-attachments/assets/dff676c0-4260-41fc-9de2-7255b7653638" alt="Muhammad Mohsin Avatar" width="300" style="border-radius: 10px; margin-left: 20px;">
 
+<br clear="right"/>
+<p align="right">
+  <img src="./Assets/coding.gif.gif" alt="Coding Animation" width="300">
+</p>
+
+
 <!-- [ABOUT ME / BULLET POINTS SECTION]: Yeh aapke key milestones, background, skills aur goals ko justify format mein dikhata hai -->
 <div align="justify">
   <h3 style="color: #ffffff;">A little more about me... <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="40"></h3>
@@ -38,10 +44,6 @@
   </ul>
 </div>
 
-<br clear="right"/>
-<p align="center">
-  <img src="./Assets/coding.gif.gif" alt="Coding Animation" width="400">
-</p>
 
 <hr style="border: 0.5px solid #30363d; margin: 25px 0;">
 
