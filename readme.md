@@ -109,3 +109,13 @@
 </div>
 <br>
 
+
+
+<!-- [COMPUTER SCIENCE QUOTE SECTION]: 100% reliable styled quote box -->
+<br>
+<p align="center">
+  <blockquote style="background-color: #161b22; border-left: 4px solid #58a6ff; padding: 15px; border-radius: 6px; color: #c9d1d9; font-style: italic;">
+    "The function of good software is to make the complex appear simple." <br>
+    <b style="color: #58a6ff; font-style: normal;">— Grady Booch</b>
+  </blockquote>
+</p>
