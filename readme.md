@@ -45,9 +45,6 @@
 
 <hr style="border: 0.5px solid #30363d; margin: 25px 0;">
 
-
-
-
 <!-- [SOCIAL CONNECT SECTION]: Yeh section aapke saare academic aur social profiles ke working badges/icons display karta hai -->
 <h3 align="left" style="color: #ffffff;">Connect with me:</h3>
 <p align="left">
@@ -63,10 +60,6 @@
 </p>
 
 <hr style="border: 0.5px solid #30363d; margin: 25px 0;">
-
-
-
-
 
 <!-- [TECH STACK SECTION]: Yeh section aapki programming languages, frameworks, cloud tools aur environments ke icons show karta hai -->
 <h3 align="left" style="color: #ffffff;">Languages, Tools & Tech Stack:</h3>
@@ -112,10 +105,7 @@
 
 </div>
 
-<div align="center">
-  <h3 align="left" style="color: #ffffff;">GitHub Stats & Metrics:</h3>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=mohsinscholar&show_icons=true&locale=en&layout=compact&theme=radical" alt="mohsin top langs" />
-</div>
+
 <br>
 
 <!-- [COMPUTER SCIENCE QUOTE SECTION]: Error-free clean dark-themed quote box -->
