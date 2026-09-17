@@ -1,17 +1,16 @@
 name: Generate Snake Animation
 
 on:
-  # Har 12 ghantay baad yeh khud-b-khud update hogi
   schedule:
     - cron: "0 */12 * * *"
-  
-  # Aap isko manually bhi run kar sakte hain
   workflow_dispatch:
-  
-  # Jab bhi aap apni profile par koi code push karenge tab bhi yeh chalegi
   push:
     branches:
       - main
+
+# Yeh sab se ahem hissa hai jo permission deta hai
+permissions:
+  contents: write
 
 jobs:
   build:
