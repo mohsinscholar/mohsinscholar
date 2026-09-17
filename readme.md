@@ -7,6 +7,7 @@
 <!-- [AVATAR/IMAGE SECTION]: Yeh image ko right side par aur chote size mein set karega -->
 <img align="right" src="https://github.com/user-attachments/assets/dff676c0-4260-41fc-9de2-7255b7653638" alt="Muhammad Mohsin Avatar" width="350">
 
+
 <!-- [ABOUT ME / BULLET POINTS]: Yeh aapke key milestones, academic background aur current focus ko bullet points mein dikhata hai -->
 - 🎓 **MPhil in Computer Science (Cryptography & AI Security)** — Graduate (2021–2024).
 - 🏛️ **Professional Background** — IT Operations & Technical Support Officer at Police Department (Awarded 34x Commendation Certificates for data integrity & tech operations) & Former CS Lecturer at Riphah International University.
