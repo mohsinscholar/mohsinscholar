@@ -4,8 +4,8 @@
 <!-- [SUB-HEADING SECTION]: Yeh aapki professional identity (Researcher & IT Professional) ko highlight karta hai -->
 <h3 align="center">Computer Science Researcher | IT Operations Officer | AI Security & Agentic Workflow Enthusiast</h3>
 
-<!-- [AVATAR/IMAGE SECTION]: Yeh right side par aapki profile picture (avatar) ko 200px width mein display karta hai -->
-<img align="right" src="https://github.com/mohsinscholar/mohsinscholar/blob/main/ChatGPT%20Image%20Sep%2014,%202026,%2003_21_42%20PM.png?raw=true" alt="Muhammad Mohsin Avatar" width="200">
+<!-- [AVATAR/IMAGE SECTION]: Yeh image ko right side par aur chote size mein set karega -->
+<img align="right" src="https://github.com/user-attachments/assets/dff676c0-4260-41fc-9de2-7255b7653638" alt="Muhammad Mohsin Avatar" width="350">
 
 <!-- [ABOUT ME / BULLET POINTS]: Yeh aapke key milestones, academic background aur current focus ko bullet points mein dikhata hai -->
 - 🎓 **MPhil in Computer Science (Cryptography & AI Security)** — Graduate (2021–2024).
