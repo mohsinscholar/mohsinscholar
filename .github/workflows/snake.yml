@@ -8,25 +8,66 @@ on:
     branches:
       - main
 
-# Yeh sab se ahem hissa hai jo permission deta hai
 permissions:
   contents: write
+
+concurrency:
+  group: snake-animation
+  cancel-in-progress: true
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
 
+    steps:
       - name: Generate Snake SVG
-        uses: Platane/snk@v3
-        id: snake-gif
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: mohsinscholar
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg?color_snake=#7c3aed&color_dots=#e5e7eb,#67e8f9,#22d3ee,#0891b2,#155e75
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#f472b6&color_dots=#161b22,#164e63,#0891b2,#22d3ee,#a5f3fc
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Make animation twice as fast
+        shell: python
+        run: |
+          from pathlib import Path
+          import re
+
+          SPEED = 2.0
+
+          for path in Path("dist").glob("*.svg"):
+              svg = path.read_text()
+              changes = [0]
+
+              def speed_up_style(match):
+                  def shorten_time(time_match):
+                      changes[0] += 1
+                      value = float(time_match.group(1)) / SPEED
+                      return f"{value:g}{time_match.group(2)}"
+
+                  return re.sub(
+                      r"(?<![\w.-])(\d+(?:\.\d+)?)(ms|s)\b",
+                      shorten_time,
+                      match.group(0),
+                  )
+
+              svg = re.sub(
+                  r"<style\b[^>]*>.*?</style>",
+                  speed_up_style,
+                  svg,
+                  flags=re.DOTALL,
+              )
+
+              if not changes[0]:
+                  raise RuntimeError(
+                      f"No animation timings found in {path}"
+                  )
+
+              path.write_text(svg)
+              print(f"Updated {path}: speed x{SPEED}")
 
       - name: Push Snake to Output Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
