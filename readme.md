@@ -77,13 +77,11 @@
   <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to meet you more!</b> :)</em>
 </p>
 
-<div align="center">
-  <h3 align="left" style="color: #ffffff;">GitHub Stats & Metrics:</h3>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=mohsinscholar&show_icons=true&locale=en&layout=compact&theme=radical" alt="mohsin top langs" />
-</div>
 
-<br>
-
+<!-- [GITHUB STREAK STATS]: Yeh card aapki coding streak aur contributions ko show karega -->
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mohsinscholar&theme=radical&hide_border=false" alt="GitHub Streak" />
+</p>
 <!-- [GITHUB SNAKE GAME ANIMATION]: Yeh aapki contributions par snake game animation chalata hai -->
 <p align="center">
   <picture>
@@ -94,3 +92,10 @@
 </p>
 
 </div>
+
+<div align="center">
+  <h3 align="left" style="color: #ffffff;">GitHub Stats & Metrics:</h3>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=mohsinscholar&show_icons=true&locale=en&layout=compact&theme=radical" alt="mohsin top langs" />
+</div>
+<br>
+
