@@ -1,33 +1,66 @@
+<!-- [HEADER SECTION]: Yeh block profile ke sabse upar center mein aapka naam aur aik welcoming heading show karta hai -->
 <h1 align="center">Hi 👋, I'm Muhammad Mohsin</h1>
-<h3 align="center">A passionate Computer Science Researcher & IT Professional from Pakistan</h3>
-<img align="right"
-    src="https://github.com/mohsinscholar/mohsinscholar/blob/main/ChatGPT%20Image%20Sep%2014,%202026,%2003_21_42%20PM.png?raw=true"
-    alt="Muhammad Mohsin Avatar" width="200">
 
-- 🎓 MPhil in Computer Science (Cryptography & AI Security)
-- 🔬 Researching Symmetric-Key Cryptography, AI Security, and Digital Forensics
-- 🤖 Actively expanding expertise in agentic AI architectures, autonomous multi-agent workflows, and intelligent system design.
-- 📚 Co-author of 3 peer-reviewed research papers aiming for PhD opportunities in Europe
-- 📫 How to reach me **m.mohsinscholar@gmail.com**
+<!-- [SUB-HEADING SECTION]: Yeh aapki professional identity (Researcher & IT Professional) ko highlight karta hai -->
+<h3 align="center">Computer Science Researcher | IT Operations Officer | AI Security & Agentic Workflow Enthusiast</h3>
 
+<!-- [AVATAR/IMAGE SECTION]: Yeh right side par aapki profile picture (avatar) ko 200px width mein display karta hai -->
+<img align="right" src="https://github.com/mohsinscholar/mohsinscholar/blob/main/ChatGPT%20Image%20Sep%2014,%202026,%2003_21_42%20PM.png?raw=true" alt="Muhammad Mohsin Avatar" width="200">
+
+<!-- [ABOUT ME / BULLET POINTS]: Yeh aapke key milestones, academic background aur current focus ko bullet points mein dikhata hai -->
+- 🎓 **MPhil in Computer Science (Cryptography & AI Security)** — Graduate (2021–2024).
+- 🏛️ **Professional Background** — IT Operations & Technical Support Officer at Police Department (Awarded 34x Commendation Certificates for data integrity & tech operations) & Former CS Lecturer at Riphah International University.
+- 🔬 **Research Focus** — Symmetric-Key Cryptography, AI Security, Digital Forensics, and Secure Software Solutions.
+- 🤖 **Current Learning** — Actively mastering **Agentic AI Architectures**, autonomous multi-agent workflows, and intelligent automated systems.
+- 🎯 **Ultimate Goal** — Pursuing fully funded PhD opportunities in Europe and publishing high-impact research.
+- 📫 **How to reach me** — **m.mohsinscholar@gmail.com**
+
+---
+
+<!-- [SOCIAL CONNECT SECTION]: Yeh section aapke saare academic aur social profiles ke working badges/icons display karta hai -->
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://linkedin.com/in/mohsinscholar" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" /></a>
-<a href="https://github.com/mohsinscholar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="GitHub" height="30" width="40" /></a>
-<a href="https://orcid.org/0009-0002-8425-0658" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/orcid.svg" alt="ORCID" height="30" width="40" /></a>
-<a href="https://scholar.google.com/citations?user=g9jWUw4AAAAJ&hl=en" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/google-scholar.svg" alt="Google Scholar" height="30" width="40" /></a>
-<a href="https://www.facebook.com/mohsin4149" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="Facebook" height="30" width="40" /></a>
-<a href="https://www.instagram.com/mr_muhammad_mohsin/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram" height="30" width="40" /></a>
-<a href="https://www.tiktok.com/@mohsin__thoughts" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/tiktok.svg" alt="TikTok" height="30" width="40" /></a>
+<!-- LinkedIn Profile Link & Badge -->
+<a href="https://linkedin.com/in/mohsinscholar" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" height="30"/></a>
+<!-- GitHub Profile Link & Badge -->
+<a href="https://github.com/mohsinscholar" target="blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" height="30"/></a>
+<!-- Google Scholar Profile Link & Badge (Fixed) -->
+<a href="https://scholar.google.com/citations?user=g9jWUw4AAAAJ&hl=en" target="blank"><img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Google Scholar" height="30"/></a>
+<!-- ORCID Profile Link & Badge -->
+<a href="https://orcid.org/0009-0002-8425-0658" target="blank"><img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID" height="30"/></a>
+<!-- TikTok Profile Link & Badge (Fixed) -->
+<a href="https://www.tiktok.com/@mohsin__thoughts" target="blank"><img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok" height="30"/></a>
+<!-- Instagram Profile Link & Badge -->
+<a href="https://www.instagram.com/mr_muhammad_mohsin/" target="blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" height="30"/></a>
+<!-- Facebook Profile Link & Badge -->
+<a href="https://www.facebook.com/mohsin4149" target="blank"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" height="30"/></a>
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> 
-<a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> 
-<a href="https://dotnet.microsoft.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a> 
-<a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> 
-<a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> 
-<a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="vscode" width="40" height="40"/> </a> 
+---
+
+<!-- [TECH STACK SECTION]: Yeh section aapki programming languages, frameworks, cloud tools aur environments ko show karta hai -->
+<h3 align="left">Languages, Tools & Tech Stack:</h3>
+<p align="left">
+<!-- Python Language Icon -->
+<a href="https://www.python.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/></a>&nbsp;&nbsp;
+<!-- C# Language Icon -->
+<a href="https://dotnet.microsoft.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/></a>&nbsp;&nbsp;
+<!-- VB.NET / .NET Icon -->
+<a href="https://dotnet.microsoft.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original.svg" alt=".net" width="40" height="40"/></a>&nbsp;&nbsp;
+<!-- MySQL Database Icon -->
+<a href="https://www.mysql.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/></a>&nbsp;&nbsp;
+<!-- AWS Cloud Icon (NAVTTC Cloud Computing Certified) -->
+<a href="https://aws.amazon.com/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg" alt="aws" width="40" height="40"/></a>&nbsp;&nbsp;
+<!-- Git Version Control Icon -->
+<a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/></a>&nbsp;&nbsp;
+<!-- VS Code Editor Icon -->
+<a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="vscode" width="40" height="40"/></a>
 </p>
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=mohsinscholar&show_icons=true&locale=en&layout=compact" alt="mohsin stats" /></p>
+---
+
+<!-- [GITHUB STATS SECTION]: Yeh automatic aapke GitHub repository stats aur language usage ko graph ki shakal mein dikhata hai -->
+<h3 align="left">GitHub Stats & Metrics:</h3>
+<p>
+<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=mohsinscholar&show_icons=true&locale=en&layout=compact&theme=radical" alt="mohsin top langs" />
+</p>
