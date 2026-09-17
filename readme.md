@@ -76,9 +76,7 @@
 <p>
 <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=mohsinscholar&show_icons=true&locale=en&layout=compact&theme=radical" alt="mohsin top langs" />
 </p>
-<!-- [GITHUB STREAK STATS]: Yeh card aapki coding streak aur contributions ko show karega -->
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mohsinscholar&theme=radical&hide_border=false" alt="GitHub Streak" />
+
 </p>
 <!-- [GITHUB SNAKE GAME ANIMATION]: Yeh aapki contributions par snake game animation show karega -->
 <p align="center">
