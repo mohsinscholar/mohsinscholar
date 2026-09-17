@@ -45,9 +45,14 @@
 
 <hr style="border: 0.5px solid #30363d; margin: 25px 0;">
 
+
+
+
 <!-- [SOCIAL CONNECT SECTION]: Yeh section aapke saare academic aur social profiles ke working badges/icons display karta hai -->
 <h3 align="left" style="color: #ffffff;">Connect with me:</h3>
 <p align="left">
+   <a href="mailto:m.mohsinscholar@gmail.com" target="_blank"><img src="https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" height="28"/></a>&nbsp;
+  <a href="https://wa.me/923216016718" target="_blank"><img src="https://img.shields.io/badge/CELL-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Cell" height="28"/></a>&nbsp;
   <a href="https://linkedin.com/in/mohsinscholar" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" height="28"/></a>&nbsp;
   <a href="https://github.com/mohsinscholar" target="blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" height="28"/></a>&nbsp;
   <a href="https://scholar.google.com/citations?user=g9jWUw4AAAAJ&hl=en" target="blank"><img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Google Scholar" height="28"/></a>&nbsp;
@@ -58,6 +63,10 @@
 </p>
 
 <hr style="border: 0.5px solid #30363d; margin: 25px 0;">
+
+
+
+
 
 <!-- [TECH STACK SECTION]: Yeh section aapki programming languages, frameworks, cloud tools aur environments ke icons show karta hai -->
 <h3 align="left" style="color: #ffffff;">Languages, Tools & Tech Stack:</h3>
