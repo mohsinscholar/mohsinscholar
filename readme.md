@@ -1,19 +1,28 @@
 <!-- [HEADER SECTION]: Yeh block profile ke sabse upar center mein aapka naam aur aik welcoming heading show karta hai -->
-<h1 align="center">Hi 👋, I'm Muhammad Mohsin</h1>
-
+<h1> Hi, I'm Muhammad Mohsin! <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"></h1>
 <!-- [SUB-HEADING SECTION]: Yeh aapki professional identity (Researcher & IT Professional) ko highlight karta hai -->
-<h3 align="center">Computer Science Researcher | IT Operations Officer | AI Security & Agentic Workflow Enthusiast</h3>
+<h3 align="center">
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Microscope.png" alt="Microscope" width="25" height="25" /> Computer Science Researcher &nbsp;|&nbsp; 
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" alt="Laptop" width="25" height="25" /> IT Operations Officer &nbsp;|&nbsp; 
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Shield.png" alt="Shield" width="25" height="25" /> AI Security & Agentic AI Enthusiast
+</h3>
 
 <!-- [AVATAR/IMAGE SECTION]: Yeh image ko right side par aur chote size mein set karega -->
 <img align="right" src="https://github.com/user-attachments/assets/dff676c0-4260-41fc-9de2-7255b7653638" alt="Muhammad Mohsin Avatar" width="350">
 
 
-<!-- [ABOUT ME / BULLET POINTS]: Yeh aapke key milestones, academic background aur current focus ko bullet points mein dikhata hai -->
-- 🎓 **MPhil in Computer Science (Cryptography & AI Security)** — Graduate (2021–2024).
-- 🏛️ **Professional Background** — IT Operations & Technical Support Officer at Police Department (Awarded 34x Commendation Certificates for data integrity & tech operations) & Former CS Lecturer at Riphah International University.
-- 🔬 **Research Focus** — Symmetric-Key Cryptography, AI Security, Digital Forensics, and Secure Software Solutions.
-- 🤖 **Current Learning** — Actively mastering **Agentic AI Architectures**, autonomous multi-agent workflows, and intelligent automated systems.
-- 🎯 **Ultimate Goal** — Pursuing fully funded PhD opportunities in Europe and publishing high-impact research.
+
+
+<!-- [ABOUT ME / BULLET POINTS SECTION]: Yeh aapke key milestones, background, programming skills aur goals ko highlight karta hai -->
+### A little more about me...  <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> 
+- 🎓 **MPhil in Computer Science (Cryptography & AI Security)** — Graduate (2021–2024) with a core focus on cryptographic evaluation and secure systems.
+- 🏛️ **Professional Background** — IT Operations & Technical Support Officer at the Police Department (Awarded 34x Departmental Commendation Certificates for data integrity & tech operations) & Former CS Lecturer at Riphah International University.
+- 🔬 **Research & Publications** — Specialized in Symmetric-Key Cryptography, AI Security, and Digital Forensics; co-author of 3 peer-reviewed research papers.
+- 💻 **Software Development & Coding** — Proficient in building robust desktop and backend solutions using **C#**, **VB.NET**, and **Python** within Visual Studio 2022 environments.
+- 🛠️ **System Automation & Scripting** — Experienced in designing custom automation scripts, database management systems, and workflow optimizations to eliminate manual bottlenecks.
+- ☁️ **Database & Cloud Integration** — Skilled in administering secure relational databases (MySQL) and leveraging cloud technologies backed by NAVTTC AWS Cloud Computing certification.
+- 🤖 **Current Learning & Focus** — Actively mastering **Agentic AI Architectures**, autonomous multi-agent workflows, and intelligent automated systems, PHD in Artificial intelligence.
+- 🎯 **Ultimate Goal** — Pursuing fully funded PhD opportunities in Europe and publishing high-impact scholarly research.**programming**
 - 📫 **How to reach me** — **m.mohsinscholar@gmail.com**
 
 ---
@@ -59,6 +68,8 @@
 </p>
 
 ---
+<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="70"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to meet you more!</b> :)</em>
+
 
 <!-- [GITHUB STATS SECTION]: Yeh automatic aapke GitHub repository stats aur language usage ko graph ki shakal mein dikhata hai -->
 <h3 align="left">GitHub Stats & Metrics:</h3>
