@@ -4,12 +4,9 @@
 
 <div style="border: 2px solid #30363d; border-radius: 12px; padding: 25px; background-color: #0d1117; color: #c9dd1a;">
 
-<!-- Right Side Images without Table -->
-<div align="right" style="float: right; margin-left: 15px; margin-bottom: 10px; text-align: center;">
-  <img src="https://github.com/user-attachments/assets/dff676c0-4260-41fc-9de2-7255b7653638" alt="Muhammad Mohsin Avatar" width="180" style="border-radius: 10px;">
-  <br><br>
-  <img src="./Assets/coding.gif.gif" alt="Coding Animation" width="180" style="border-radius: 10px;">
-</div>
+<table>
+<tr>
+<td width="75%" valign="top">
 
 <h1 style="color: #ffffff; margin-top: 0;">
 Hi, I'm Muhammad Mohsin! 
@@ -36,7 +33,14 @@ Hi, I'm Muhammad Mohsin!
 </ul>
 </div>
 
-<div style="clear: both;"></div>
+</td>
+<td width="25%" valign="top" align="center">
+<img src="https://github.com/user-attachments/assets/dff676c0-4260-41fc-9de2-7255b7653638" alt="Muhammad Mohsin Avatar" width="180">
+<br><br>
+<img src="./Assets/coding.gif.gif" alt="Coding Animation" width="180">
+</td>
+</tr>
+</table>
 
 <hr style="border: 0.5px solid #30363d; margin: 25px 0;">
 
