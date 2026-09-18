@@ -4,23 +4,23 @@
 
 <div style="border: 2px solid #30363d; border-radius: 12px; padding: 25px; background-color: #0d1117; color: #c9dd1a;">
 
-<table>
-<tr>
-<td width="75%" valign="top" align="left">
-
-<h1 align="left" style="color: #ffffff; margin-top: 0;">
+<h1 align="center" style="color: #ffffff; margin-top: 0;">
 Hi, I'm Muhammad Mohsin! 
 <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="45" alt="Waving">
 </h1>
 
-<h3 align="left" style="color: #c9dd1a; margin-top: 5px; margin-bottom: 20px; font-weight: normal;">
+<h3 align="center" style="color: #c9dd1a; margin-top: 5px; margin-bottom: 20px; font-weight: normal;">
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Microscope.png" alt="Microscope" width="22" height="22" /> Computer Science Researcher &nbsp;|&nbsp; 
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" alt="Laptop" width="22" height="22" /> IT Operations Officer &nbsp;|&nbsp; 
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Shield.png" alt="Shield" width="22" height="22" /> AI Security & Agentic AI Enthusiast
 </h3>
 
-<div align="justify" style="color: #c9d1d9;">
-<h3 style="color: #ffffff; margin-top: 10px; margin-bottom: 10px;">A little more about me... <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="35"></h3>
+<table>
+<tr>
+<td width="75%" valign="top" align="left">
+
+<div align="left" style="color: #c9d1d9;">
+<h3 align="left" style="color: #ffffff; margin-top: 10px; margin-bottom: 10px;">A little more about me... <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="35"></h3>
 <ul style="margin: 0; padding-left: 20px;">
   <li>🎓 <b>Education:</b> MPhil in Computer Science (Cryptography & AI Security, 2021–2024) with a core focus on cryptographic evaluation.</li>
   <li>🏛️ <b>Professional Experience:</b> IT Operations & Technical Support Officer at the Police Department (Awarded 34x Commendation Certificates) & Former CS Lecturer at Riphah International University.</li>
@@ -34,8 +34,8 @@ Hi, I'm Muhammad Mohsin!
 </div>
 
 </td>
-<td width="25%" valign="top" align="center">
-<img src="https://github.com/user-attachments/assets/dff676c0-4260-41fc-9de2-7255b7653638" alt="Muhammad Mohsin Avatar" width="180">
+<td width="25%" valign="middle" align="right">
+<img src="./Assets/coding%201.gif" alt="Coding Animation 1" width="180">
 <br><br>
 <img src="./Assets/coding.gif.gif" alt="Coding Animation" width="180">
 </td>
