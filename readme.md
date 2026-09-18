@@ -6,14 +6,14 @@
 
 <table>
 <tr>
-<td width="75%" valign="top">
+<td width="75%" valign="top" align="left">
 
-<h1 style="color: #ffffff; margin-top: 0;">
+<h1 align="left" style="color: #ffffff; margin-top: 0;">
 Hi, I'm Muhammad Mohsin! 
 <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="45" alt="Waving">
 </h1>
 
-<h3 style="color: #c9dd1a; margin-top: 5px; margin-bottom: 20px; font-weight: normal;">
+<h3 align="left" style="color: #c9dd1a; margin-top: 5px; margin-bottom: 20px; font-weight: normal;">
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Microscope.png" alt="Microscope" width="22" height="22" /> Computer Science Researcher &nbsp;|&nbsp; 
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" alt="Laptop" width="22" height="22" /> IT Operations Officer &nbsp;|&nbsp; 
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Shield.png" alt="Shield" width="22" height="22" /> AI Security & Agentic AI Enthusiast
